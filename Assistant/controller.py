@@ -41,5 +41,4 @@ class BookSummarizer:
             temperature=0
             )
         response = completion.choices[0].message.content
-        print(f"Original response: {response}")
         return json.loads(response)
