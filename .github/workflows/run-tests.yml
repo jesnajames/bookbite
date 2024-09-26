@@ -4,7 +4,7 @@ on:
   workflow_dispatch:  # Allows the workflow to be triggered via API call
 
 jobs:
-  test:
+  test_workflow:
     runs-on: ubuntu-latest  # Specify the environment
 
     steps:
