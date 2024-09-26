@@ -35,10 +35,12 @@ def mock_parse_response():
         mock_func.return_value = {"message": "Parsed successfully"}
         yield mock_func
 
+
 # happy_path - test_get_summary_success - Test that the summary of 'The Alchemist' is correctly returned for a successful response.
 def test_get_summary_success(mock_get_summary):
     response = sample_summary.get(200)
     assert response['summary'] == 'The Alchemist'
+
 
 # happy_path - test_get_message_content_success - Test that the message content of 'The Alchemist' is correctly returned for a successful response.
 def test_get_message_content_success(mock_get_message_content):
