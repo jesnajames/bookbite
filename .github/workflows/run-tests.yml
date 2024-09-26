@@ -9,10 +9,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4  # Checkout the code from the repository
+      uses: actions/checkout@v3  # Checkout the code from the repository
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # Set up Python environment
+      uses: actions/setup-python@v5  # Use the latest stable version of the action
       with:
         python-version: '3.x'  # Specify the Python version
 
