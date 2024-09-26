@@ -3,6 +3,7 @@ from unittest.mock import patch, MagicMock
 from openai import OpenAI
 from Assistant.controller import BookBiteModel, BookSummarizer
 import json
+
 @pytest.fixture
 def mock_openai():
     with patch('Assistant.controller.OpenAI') as mock:
