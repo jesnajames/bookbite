@@ -5,7 +5,7 @@ sample_summary = {
         "content": {
             "application/json": {
                 "examples": {
-                    "Success":{
+                    "Success": {
                         "summary": "The Alchemist",
                         "value": {
                             "message": {                        
